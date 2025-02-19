@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- js bootstrap 5 -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <!-- font-awesome library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- css bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- path link style CSS -->
+    <link href="style.css" rel="stylesheet">
+    <title>Portfolio</title>
+</head>
+<body id="bodys">
+    <header >
+        <div class="container_nav">
+            <div class="logo">
+                <img src="img/logo.PNG" alt="">
+            </div>
+            <div class="box_navbar">
+                <ul>
+                    <li><a href="#home" class="active">Home</a></li>
+                    <li><a href="#aboutmes">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contacts">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="page1" id="home" class="section">
+            <div class="box_profile">
+                <div class="profile ">
+                    <img src="img/IMG_9510.JPG" alt="" >
+                </div>
+                <div class="name">
+                    <h1>ភាង​ កក្កដា</h1>
+                    <h2>PHEANG•KAKADA</h2>
+                    <h3>Front-End Developer</h3>
+                    <div class="box_social">
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <button class="email">Email me</button>
+                    
+                </div>
+            </div>
+            <div class="box_AboutMe">
+                <div class="aboutMe">
+                    <div class="head_aboutMe">
+                        <span>About Me</span>
+                    </div>
+                    <div class="box_aboutME_Detail">
+                        <div class="kh">
+                            <p><i>ខ្ញុំបង្កើតផ្នែកដែលមើលឃើញ និងអន្តរកម្មនៃគេហទំព័រ ឬកម្មវិធីដោយប្រើ HTML, CSS, JavaScript និងក្របខ័ណ្ឌដូចជា React ។ ការផ្តោតអារម្មណ៍របស់ខ្ញុំគឺលើការធ្វើឱ្យចំណុចប្រទាក់ងាយស្រួលប្រើ ឆ្លើយតប និងទាក់ទាញ។</i></p>
+                        </div>
+                        <div class="eng">
+                            <p><i>I create the visual and interactive parts of websites or apps using HTML, CSS, JavaScript, and frameworks like React. My focus is on making the interface user-friendly, responsive, and engaging.</i></p>
+                        </div>
+                    </div>
+                    <div class="box_portilio">
+                    <button class="downloadcv">Download CV <i class="fa-solid fa-download" style="font-size: 23px;"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="resume_Page" id="aboutmes" class="section">
+            <div class="resume_title">
+                <span>Introduce Myself</span>
+            </div>
+            <div class="aboutme_box">
+                <div class="aboutme_img">
+                    <!-- <div class="aboutme_img_box">
+                        <img src="./img/IMG_0615.PNG" alt="">
+                    </div> -->
+                    <div class="flip-card">
+                        <div class="flip-card-inner">
+                          <div class="flip-card-front">
+                            <img src="img/Name Pheang Kakada (1).png" alt="Avatar">
+                          </div>
+                          <div class="flip-card-back">
+                            <img src="img/Name Pheang Kakada.png" alt="Avatar">
+                          </div>
+                        </div>
+                      </div>
+                </div>
+                <div class="aboutme_Detail">
+                    <div class="aboutme_box_nav">
+                        <button onclick="aboutmeBtn()" id="btnAboutme">About me</button>
+                        <button onclick="educationBtn()" id="btnEducation">Education</button>
+                    </div>
+                    <div class="box_aboutme_details" id="box_aboutme_details">
+                        <p><i><b style="color: red; font-weight: 900;">My name is Pheang Kakada,</b> a second-year Computer Science sutudent at Royal University of Phnom Penh with a strong passion for technology and software development.</i></p>
+                        <h1>My Interests</h1>
+                        <div class="box_interest">
+                            <div class="show_interest">
+                                <div class="interest_icon"><i class="fa-solid fa-gamepad"></i></div>
+                                <div class="interest_text"><span>GAME</span></div>
+                            </div>
+                            <div class="show_interest">
+                                <div class="interest_icon"><i class="fa-solid fa-music"></i></div>
+                                <div class="interest_text"><span>Music</span></div>
+                            </div>
+                            <div class="show_interest">
+                                <div class="interest_icon"><i class="fa-solid fa-chess-bishop"></i></div>
+                                <div class="interest_text"><span>Chees</span></div>
+                            </div>
+                            <div class="show_interest">
+                                <div class="interest_icon"><i class="fa-solid fa-futbol"></i></i></div>
+                                <div class="interest_text"><span>Football</span></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_education_details" id="box_education_details">
+                        <p>This my Education Details and Certificate that I was studied at school and short course.</p>
+                        <div class="box_show_education">
+                            <div class="education">
+                                <span style="color: red; font-weight: 800; font-family: 'Norwester', sans-serif;">2017 - 2018</span>
+                                <p>Passed Secondary School Certificate from Hun Sen Anlong Veng Secondary.</p>
+                                <div class="certificate_view">
+                                    <button>Certificate View<i class="fa-solid fa-arrow-right-to-bracket" style="font-size: 16px; padding: 5px;"></i></button>
+                                </div>
+                            </div>
+                            <div class="education">
+                                <span style="color: red; font-weight: 800; font-family: 'Norwester', sans-serif;">2020 - 2021</span>
+                                <p>Finished Hight School at Anlong Veng High School.</p>
+                                <div class="certificate_view">
+                                    <button>Certificate View<i class="fa-solid fa-arrow-right-to-bracket" style="font-size: 16px; padding: 5px;"></i></button>
+                                </div>
+                            </div>
+                            <div class="education">
+                                <span style="color: red; font-weight: 800; font-family: 'Norwester', sans-serif;">2022</span>
+                                <p>Completed Course C/C++ at ETEC Cente</p>
+                                <div class="certificate_view">
+                                    <button>Certificate View<i class="fa-solid fa-arrow-right-to-bracket" style="font-size: 16px; padding: 5px;"></i></button>
+                                </div>
+                            </div>
+                            <div class="education">
+                                <span style="color: red; font-weight: 800; font-family: 'Norwester', sans-serif;">2023</span>
+                                <p>Completed Course Front-End (HTML,CSS,JavaScript ) at ETEC Center.</p>
+                                <div class="certificate_view">
+                                    <button>Certificate View<i class="fa-solid fa-arrow-right-to-bracket" style="font-size: 16px; padding: 5px;"></i></button>
+                                </div>
+                            </div>
+                            <div class="education">
+                                <span style="color: red; font-weight: 800; font-family: 'Norwester', sans-serif;">2023 - Present</span>
+                                <p>Studying Information Technology at Royal University of Phnom
+                                    </p>
+                                <div class="certificate_view">
+                                    <button>Certificate View<i class="fa-solid fa-arrow-right-to-bracket" style="font-size: 16px; padding: 5px;"></i></button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--Resume page end -->
+        <div class="page2" id="skills" class="section">
+            <div class="box_left">
+                <div class="box_left_img">
+                    <img src="img/b1.png" alt="">
+                </div>
+            </div>
+            <div class="box_right">
+                <div class="language">
+                    <span>Languages Skills</span>
+                </div>
+                <div class="progress1">
+                    <div class="box_html_progress">
+                        <div class="title">
+                            <h1>HTML</h1>
+                        </div>
+                        <div class="progress2">
+                            <div class="progress-bar html">
+                                <progress id="html" min="0" max="100" value="80"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_html_progress">
+                        <div class="title">
+                            <h1>JavaScript</h1>
+                        </div>
+                        <div class="progress2">
+                            <div class="progress-bar js">
+                                <progress id="js" min="0" max="100" value="80"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_html_progress">
+                        <div class="title">
+                            <h1>CSS</h1>
+                        </div>
+                        <div class="progress2">
+                            <div class="progress-bar css">
+                                <progress id="css" min="0" max="100" value="80"></progress>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box_html_progress">
+                        <div class="title">
+                            <h1>Bootstrap</h1>
+                        </div>
+                        <div class="progress2">
+                            <div class="progress-bar bootstrap">
+                                <progress id="bootstrap" min="0" max="100" value="80"></progress>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills">
+                    <p><i>These are some of my skills in website development and other areas that I studied in school, such as Java, C/C++, C#, and Python.</i></p>
+                </div>
+                <!-- <marquee> -->
+                    <div class="box_all_skills">
+                        <div class="box_skills_show">
+                            <img src="img/c-.png" alt="">
+                            C/C++
+                        </div>
+                        <div class="box_skills_show">
+                            <img src="img/java.png" alt="">
+                            Java
+                        </div>
+                        <div class="box_skills_show">
+                            <img src="img/php.png" alt="">
+                            PHP
+                        </div>
+                        <div class="box_skills_show">
+                            <img src="img/programing.png" alt="">
+                            Node Js
+                        </div>
+                        <div class="box_skills_show">
+                            <img src="img/c-sharp.png" alt="">
+                            C#
+                        </div>
+                        <div class="box_skills_show">
+                            <img src="img/python.png" alt="">
+                            Python
+                        </div>
+                    </div>
+                <!-- </marquee> -->
+            </div>
+        </div>
+        <div class="project_page" id="project" class="section">
+            <div class="project_title">
+                <span>Project At School</span>
+                <p><i>These is My project that I was created at school and short course .</i></p>
+            </div>
+            <div class="box_show_project">
+                <div class="project_1">
+                    <div class="project_1_img">
+                        <img src="img/univerPro.png" alt="">
+                    </div>
+                    <div class="project_1_description">
+                        <h3>UniverCambo.com</h3>
+                        <p>The univerCambo is the project that I was create since 2023 during I'm studied Course Web-design at ETEC Center.</p>
+                    </div>
+                    <div class="project_1_source">
+                        <button class="souce">Source <i class="fa-solid fa-up-right-from-square"></i></button>
+                        <button class="code">Embed <i class="fa-solid fa-code"></i></button>
+                    </div>
+                </div>
+                <div class="project_1">
+                    <div class="project_1_img">
+                        <img src="./img/univerPro.png" alt="">
+                    </div>
+                    <div class="project_1_description">
+                        <h3>UniverCambo.com</h3>
+                        <p>The univerCambo is the project that I was create since 2023 during I'm studied Course Web-design at ETEC Center.</p>
+                    </div>
+                    <div class="project_1_source">
+                        <button class="souce">Source <i class="fa-solid fa-up-right-from-square"></i></button>
+                        <button class="code">Embed <i class="fa-solid fa-code"></i></button>
+                    </div>
+                </div>
+                <div class="project_1">
+                    <div class="project_1_img">
+                        <img src="./img/univerPro.png" alt="">
+                    </div>
+                    <div class="project_1_description">
+                        <h3>UniverCambo.com</h3>
+                        <p>The univerCambo is the project that I was create since 2023 during I'm studied Course Web-design at ETEC Center.</p>
+                    </div>
+                    <div class="project_1_source">
+                        <button class="souce">Source <i class="fa-solid fa-up-right-from-square"></i></button>
+                        <button class="code">Embed <i class="fa-solid fa-code"></i></button>
+                    </div>
+                </div>
+            </div>
+            <div class="seeMore d-flex justify-content-center"><i class="fa-solid fa-angles-down"></i></div>
+        </div>
+        <div class="Contact_page" id="contacts" class="section">
+            <div class="contact_title">
+                <span>Contact Me</span>
+            </div>
+            <div class="contact_box1">
+                <div class="contact_profile_box">
+                    <div class="contact_profile">
+                        <img src="img/IMG_9510.JPG" alt="">
+                    </div>
+                </div>
+                <div class="contact_phone_box">
+                    <span><i class="fa-solid fa-phone-volume"></i>Phone</span>
+                    <span>
+                        <a href="#"><i>+855 96 6361 418</i></a>
+                    </span>
+                    <span>
+                        <a href="#"><i>+855 82 827 xxx</i></a>
+                    </span>
+                </div>
+                <div class="contact_email_box">
+                    <span><i class="fa-solid fa-envelope-circle-check"></i>Email</span>
+                    <span>
+                        <a href=""><i>oookakada@gmail.com</i></a>
+                    </span>
+                </div>
+            </div>
+            <div class="contact_socail_box">
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="form_mail_box mt-3">
+                <div class="message mt-4">
+                    <form action="">   
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Write Your Message to Me !</label>
+                            <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name . . .">
+                        </div>
+                        <div class="col-12 mt-1">
+                            <!-- <label class="" for="inlineFormInputGroupUsername">example@gmail.com</label> -->
+                            <div class="input-group">
+                            <div class="input-group-text">@</div>
+                            <input type="text" class="form-control" id="inlineFormInputGroupUsername" placeholder="example@gmail.com">
+                            </div>
+                        </div>
+                        <div class="mb-3 mt-3" >
+                            <!-- <label for="" class="form-label">Write Your Message !</label> -->
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Message . . ." ></textarea>
+                        </div>
+                        <div class="col-12 ">
+                            <button class="btn btn-primary" type="submit">SEND</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="location_map mt-4">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10583.321491361086!2d104.89323115898452!3d11.574374489758743!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3109510a34b74b71%3A0x7ecaa29e6b81d711!2sPaint%20Coffee!5e0!3m2!1sen!2skh!4v1739350707004!5m2!1sen!2skh" width="600" height="450" style="border:3px solid #4d4b44;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div> <!--contac page end -->
+        <!-- DarkModButton -->
+        <label class="switch">
+            <span class="sun" id="btn_dark"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g fill="#ffd43b"><circle r="5" cy="12" cx="12"></circle><path d="m21 13h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm-17 0h-1a1 1 0 0 1 0-2h1a1 1 0 0 1 0 2zm13.66-5.66a1 1 0 0 1 -.66-.29 1 1 0 0 1 0-1.41l.71-.71a1 1 0 1 1 1.41 1.41l-.71.71a1 1 0 0 1 -.75.29zm-12.02 12.02a1 1 0 0 1 -.71-.29 1 1 0 0 1 0-1.41l.71-.66a1 1 0 0 1 1.41 1.41l-.71.71a1 1 0 0 1 -.7.24zm6.36-14.36a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm0 17a1 1 0 0 1 -1-1v-1a1 1 0 0 1 2 0v1a1 1 0 0 1 -1 1zm-5.66-14.66a1 1 0 0 1 -.7-.29l-.71-.71a1 1 0 0 1 1.41-1.41l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.29zm12.02 12.02a1 1 0 0 1 -.7-.29l-.66-.71a1 1 0 0 1 1.36-1.36l.71.71a1 1 0 0 1 0 1.41 1 1 0 0 1 -.71.24z"></path></g></svg></span>
+            <span class="moon" id="btn_light"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path d="m223.5 32c-123.5 0-223.5 100.3-223.5 224s100 224 223.5 224c60.6 0 115.5-24.2 155.8-63.4 5-4.9 6.3-12.5 3.1-18.7s-10.1-9.7-17-8.5c-9.8 1.7-19.8 2.6-30.1 2.6-96.9 0-175.5-78.8-175.5-176 0-65.8 36-123.1 89.3-153.3 6.1-3.5 9.2-10.5 7.7-17.3s-7.3-11.9-14.3-12.5c-6.3-.5-12.6-.8-19-.8z"></path></svg></span>   
+            <input type="checkbox" class="input">
+            <span class="slider"></span>
+        </label>
+    </main>
+    <footer>
+        <span>© pheang_kakada portfolio 2025</span>
+    </footer>
+</body>
+    <script src="js.js"></script>
+</html>
