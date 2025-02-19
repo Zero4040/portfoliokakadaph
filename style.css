@@ -23,11 +23,11 @@ body{
     padding: 30px 70px 0px 70px;
     width: 100%;
     /* height: 900vh; */
-    background-color: var(--secondary-bg1-color);
+    background-color: var(--secondary-bg2-color);
     transition: background-color 0.3s ease;
 }
 body.dark-mode{
-    background-color: var(--secondary-bg2-color);
+    background-color: var(--secondary-bg1-color);
 }
 .box_navbar ul li a.dark-mode.active {
     color: var(--secondary-text-color);
@@ -53,7 +53,7 @@ body.dark-mode{
         padding: 10px;
         width: 100%;
         /* height: 900vh; */
-        background-color: var(--secondary-bg1-color);
+        background-color: var(--secondary-bg2-color);
         /* margin-bottom:20vh; */
     }
     main{
