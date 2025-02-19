@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Siemreap&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lobster&family=Siemreap&display=swap');
 @import url('https://fonts.cdnfonts.com/css/norwester');
+@import url('https://fonts.googleapis.com/css2?family=Nokora:wght@100;300;400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Moul&family=Noto+Sans+Khmer:wght@100..900&family=Noto+Serif+Khmer:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
@@ -280,7 +281,7 @@ body.dark-mode{
         font-size: 15px;
         text-align: center;
         text-decoration: none;
-        font-family: "Inter", serif;
+        font-family: "Nokora", serif;
         color: var(--secondary-bg-color);
         line-height: 30px;
 
@@ -1426,7 +1427,7 @@ body.dark-mode{
         height: 100%;
         text-align: center;
         /* background-color: coral; */
-        font-family: "Inter", serif;
+        font-family: "Nokora", serif;
         font-size: 15px;
         line-height: 30px;
         color: var(--secondary-bg-color);
@@ -2558,7 +2559,7 @@ body.dark-mode{
         height: 100%;
         text-align: center;
         /* background-color: coral; */
-        font-family: "Inter", serif;
+        font-family: "Nokora", serif;
         font-size: 22px;
         color: var(--secondary-bg-color);
         font-weight: 500;
@@ -3715,7 +3716,7 @@ body.dark-mode{
         width: 45%;
         height: 100%;
         /* background-color: coral; */
-        font-family: "Inter", serif;
+        font-family: "Nokora", serif;
         font-size: 20px;
         color: var(--primary-text-color);
         font-weight: 500;
